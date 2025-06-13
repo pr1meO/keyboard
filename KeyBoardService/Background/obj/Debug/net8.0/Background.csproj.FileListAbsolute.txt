@@ -1,0 +1,12 @@
+D:\Data\source\repos\KeyBoardService\Background\bin\Debug\net8.0\Background.deps.json
+D:\Data\source\repos\KeyBoardService\Background\bin\Debug\net8.0\Background.dll
+D:\Data\source\repos\KeyBoardService\Background\bin\Debug\net8.0\Background.pdb
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.GeneratedMSBuildEditorConfig.editorconfig
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.AssemblyInfoInputs.cache
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.AssemblyInfo.cs
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.csproj.CoreCompileInputs.cache
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.dll
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\refint\Background.dll
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.pdb
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\ref\Background.dll
+D:\Data\source\repos\KeyBoardService\Background\obj\Debug\net8.0\Background.csproj.AssemblyReference.cache

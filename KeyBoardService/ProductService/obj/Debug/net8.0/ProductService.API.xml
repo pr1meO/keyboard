@@ -1,0 +1,159 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>ProductService.API</name>
+    </assembly>
+    <members>
+        <member name="M:ProductService.API.Controllers.BrandController.CreateAsync(ProductService.API.Contracts.Brands.CreateBrandRequest)">
+            <summary>
+            Creates a new brand.
+            </summary>
+            <param name="request">The request containing the brand data to be created.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.BrandController.GetAllAsync">
+            <summary>
+            Retrieves all brands.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.BrandController.GetByIdAsync(System.Guid)">
+            <summary>
+            Retrieves a brand by its ID.
+            </summary>
+            <param name="id">The ID of the brand to retrieve.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.BrandController.UpdateAsync(System.Guid,ProductService.API.Contracts.Brands.UpdateBrandRequest)">
+            <summary>
+            Updates a brand by its ID.
+            </summary>
+            <param name="id">The ID of the brand to update.</param>
+            <param name="request">The request containing the updated brand data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.BrandController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a brand by its ID.
+            </summary>
+            <param name="id">The ID of the brand to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CartController.GetProductsAsync">
+            <summary>
+            Retrieves all products in the user's cart.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CartProductController.AddAsync(ProductService.API.Contracts.CartProducts.CreateCartProductRequest)">
+            <summary>
+            Adds a product to the cart.
+            </summary>
+            <param name="request">The request containing the product data to be added to the cart.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CartProductController.UpdateAsync(System.Guid,ProductService.API.Contracts.CartProducts.UpdateCartProductRequest)">
+            <summary>
+            Updates the quantity of a product in the cart.
+            </summary>
+            <param name="id">The ID of the product to update.</param>
+            <param name="request">The request containing the updated quantity data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CartProductController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a product from the cart by its ID.
+            </summary>
+            <param name="id">The ID of the product to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CartProductController.ClearAsync">
+            <summary>
+            Clears all products from the cart.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CategoryController.CreateAsync(ProductService.API.Contracts.Categories.CreateCategoryRequest)">
+            <summary>
+            Creates a new category.
+            </summary>
+            <param name="request">The request containing the category data to be created.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CategoryController.GetAllAsync">
+            <summary>
+            Retrieves all categories.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CategoryController.GetByIdAsync(System.Guid)">
+            <summary>
+            Retrieves a category by its ID.
+            </summary>
+            <param name="id">The ID of the category to retrieve.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CategoryController.UpdateAsync(System.Guid,ProductService.API.Contracts.Categories.UpdateCategoryRequest)">
+            <summary>
+            Updates a category by its ID.
+            </summary>
+            <param name="id">The ID of the category to update.</param>
+            <param name="request">The request containing the updated category data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.CategoryController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a category by its ID.
+            </summary>
+            <param name="id">The ID of the category to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.ProductController.CreateAsync(ProductService.API.Contracts.Products.CreateProductRequest)">
+            <summary>
+            Creates a new product.
+            </summary>
+            <param name="request">The request containing the product data to be created.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.ProductController.GetAllAsync">
+            <summary>
+            Retrieves all products.
+            </summary>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.ProductController.GetByIdAsync(System.Guid)">
+            <summary>
+            Retrieves a product by its ID.
+            </summary>
+            <param name="id">The ID of the product to retrieve.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.ProductController.UpdateAsync(System.Guid,ProductService.API.Contracts.Products.UpdateProductRequest)">
+            <summary>
+            Updates a product by its ID.
+            </summary>
+            <param name="id">The ID of the product to update.</param>
+            <param name="request">The request containing the updated product data.</param>
+            <returns></returns>
+        </member>
+        <member name="M:ProductService.API.Controllers.ProductController.DeleteAsync(System.Guid)">
+            <summary>
+            Deletes a product by its ID.
+            </summary>
+            <param name="id">The ID of the product to delete.</param>
+            <returns></returns>
+        </member>
+        <member name="T:ProductService.API.Migrations.Init">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductService.API.Migrations.Init.Up(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductService.API.Migrations.Init.Down(Microsoft.EntityFrameworkCore.Migrations.MigrationBuilder)">
+            <inheritdoc />
+        </member>
+        <member name="M:ProductService.API.Migrations.Init.BuildTargetModel(Microsoft.EntityFrameworkCore.ModelBuilder)">
+            <inheritdoc />
+        </member>
+    </members>
+</doc>
